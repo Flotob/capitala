@@ -1,0 +1,79 @@
+body .navigation {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+body .navigation .navigation-logo img {
+  width: 200px;
+}
+body .navigation a.current {
+  color: #BE00FF;
+}
+body .navigation a:hover {
+  color: #29fff7;
+}
+body .navigation a {
+  color: #000;
+}
+body .navigation {
+  pointer-events: auto;
+}
+/*
+CSS styles in this tab apply to desktop, tablet and smart phone view
+*/
+/*
+CSS styles in this tab apply only to desktop and tablet view
+*/
+#content {
+  width: 78vw;
+}
+#sorting {
+  font-family: "Helvetica";
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  width: 15vw;
+  z-index: 12200;
+  color: #000;
+}
+#sorting a {
+  font-weight: bold;
+  color: #000;
+}
+#sorting a:hover {
+  color: #BE00FF;
+}
+#sorting ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#sorting li {
+  padding-left: 2px;
+  padding-bottom: 8px;
+}
+.navigation-logo {
+  margin-right: 50px;
+}
+.navigation-item {
+  margin-right: 20px;
+}
+.navigation-link {
+  padding-top: 2px;
+}
+/* Slideshow Navigation */
+/* Hide custom HTML in Slideshow */
+.public-asset-info .image-caption {
+  font-weight: bold;
+}
+body .square-view .asset-container {
+  margin-bottom: 52px;
+  margin-right: 10px;
+}
+body .image-asset-content {
+  font-family: Helvetica;
+}
+body .fixed-size-view .asset-container {
+  margin-right: 14px;
+}
+
+
